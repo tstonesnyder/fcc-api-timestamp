@@ -5,7 +5,8 @@ var express = require('express');
 var DateConverter = require('./app/server/dateConverter.server.js');
 
 var app = express();
-var port = 8080;
+// Use the port that Heroku provides or default to 8080
+var port = process.env.PORT || 8080;
 // Why is this necessary???
 var dateConverter = new DateConverter();
 
