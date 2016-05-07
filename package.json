@@ -1,0 +1,14 @@
+{
+  "name": "fcc-api-timestamp",
+  "version": "1.0.0",
+  "description": "Free Code Camp Timestamp Microservice Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "tstonesnyder",
+  "license": "",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

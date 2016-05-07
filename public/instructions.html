@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API Basejump: Timestamp microservice</title>
+  <style>
+    code {color: red;}
+    h3 {margin-bottom: 5px;}
+    li {margin-bottom: 10px;}
+  </style>
+</head>
+
+<body>
+  <h1>Free Code Camp Assignment</h1>
+  <h2>API Basejump: Timestamp microservice</h2>
+  <p>User stories:</p>
+  <ol>
+    <li>I can pass a string as a parameter, and it will check to see whether that string contains either a Unix timestamp or a natural language date (example: December 3, 2016)</li>
+    <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+    <li>If it does not contain a date or a Unix timestamp, it returns null for those properties.</li>
+  </ol>
+  
+  <h3>Example usage:</h3>
+  <code>https://timestamp-ns.herokuapp.com/December%203,%202016</code>
+  <br>
+  <code>https://timestamp-ns.herokuapp.com/1480723200000</code>
+
+  <h3>Example output:</h3>
+  <code>{ unix: 1480723200000, natural: "December 3, 2016" }</code>
+  <br>
+  <p>You can find details for 
+    <a href="https://www.freecodecamp.com/challenges/timestamp-microservice">this assignment</a>
+     at 
+    <a href="https://www.freecodecamp.com">Free Code Camp</a>
+  </p>
+</body>
+</html>
